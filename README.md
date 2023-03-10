@@ -1,1 +1,1 @@
-# Hometask
+Create the first folder and open 4 html pages in it. The given pictures and terms are noted. The links are inserted. The transition between the pages is determined. Finally, we redirect to our github account.
