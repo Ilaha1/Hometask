@@ -1,0 +1,2 @@
+Bu taskda hem html hissesinde hem de CSS-den istifade olunur. HTML hissesinde sehifenin strukturu hazirlanir CSS ile diyazn edilir.3 sehife var ve sehifeler arasinda kecidler mueyyen olunub.
+Textarea, background,placeholder color,text color,input focus ve s teqlerden istifade olunub.
