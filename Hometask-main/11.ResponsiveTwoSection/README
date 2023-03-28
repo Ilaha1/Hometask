@@ -1,0 +1,4 @@
+Bu taskin desktop gorunusu ucun 2section acilir.1-ci sectionda background verilib 4div qeyd olunur. bu divlerde text ve sekiller yerlesdirilir.display flex ile ufuqi istiqametde duzlub mesafe verilir.
+2ci sectionda  basliq ve 4divden istifade olunub.Her div ucun sekil olcusu ara mesafesi qeyd olunub.
+Media hisse ucun her section tablet forma ucun 2dive mobil ucun ise hemin divler yeniden 2dive bolunur .
+mediada desktop tablet ve mobil formalarda yigilib.

@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+   background-color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 140px;  
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+   background-color: aqua;
+}
+
+.div1{
+    background-image: url(sema.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.link{
+    border-bottom: 3px 5px 4px;
+font-family: ;
+}
+
+
+
+
+.img{
+    background-image: url(sema-2147.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+h2{
+    width: 50%;
+    padding-top: 300px;
+    text-shadow: 5px 3px 4px greenyellow;
+    font-family: Helvetica;
+
+
+}
+     .text{
+     width: 50%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }   
+
+a {
+    border-bottom: 2px solid white;
+    width: 70px;
+    background-color: white ;
+}
+.ff1{
+    display:flex;
+    background-color: rgb(59, 55, 55);
+    padding-top: 25vh;
+   gap: 100px;
+   height:80vh;
+   justify-content: center;
+}
+
+.ul4{display:flex;
+    background-color: rgb(59, 55, 55);
+    color:black;
+height: auto;
+}
+.ff1 .ul4{
+    padding: 5px;
+    display: inline;
+}
+.ul4 li{
+    line-height: 30px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #ic1{
+    background-color: white ;
+}
+.h2 {
+text-shadow: 6px 3px 5px rgb(251, 255, 0);
+padding-bottom: 20px;
+
+}
+.div1{
+    width: 50%;
+    padding-top: 300px;
+
+}
+
+
+p { 
+text-shadow: 6px 3px 4px greenyellow;
+    font-family: Helvetica;
+  
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-right: 130px;
+}
+.div1 a {
+    border: 1px solid rgb(26, 8, 44);
+    padding: 10px;
+}
+
+header {
+    background-image:url(sema.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.f1{
+    border-bottom: 2px solid rgb(255, 246, 255);
+    width: 50px;
+    background-color: rgb(51, 45, 45);
+}
+ul li a:hover{
+    color:azure;
+}
+#nav-icon{
+    display: flex;
+    margin-right: 120px;
+    align-content: space-around;
+}
+.sec1 ba{
+    background-image: url(sema-2147.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+display:flex;
+    background-color: rgb(59, 55, 55);
+    color: white;
+
+.ff1 {
+    display:flex;
+    background-color: rgb(59, 55, 55);
+    color: white;
+     }
+     .img{
+        background-image: url("10. Цветы.png");
+     } */

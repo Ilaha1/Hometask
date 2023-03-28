@@ -1,0 +1,145 @@
+* {
+    margin: ;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Check out*/
+.part-1 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section1 {
+    background-color: #f1f5f9;
+}
+
+.section {
+
+    display: flex;
+}
+
+.image {
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.text1 {
+    width: 240px;
+    height: 240px;
+    color: grey;
+}
+
+.text-p {
+    color: #688f37;
+    font-family: 'Grand Hotel', cursive;
+}
+
+.Check-Out {
+    display: flex;
+    gap: 40px;
+}
+
+.Check {
+    color: #688f37;
+    font-family: 'Catamaran', cursive;
+}
+
+.products {
+    font-family: 'Grand Hotel', cursive;
+}
+
+.button {
+    background-color: #688f37;
+    display: block;
+    color: white;
+    padding: 5px 30px;
+    border: 1px solid #688f37;
+}
+
+/*Explare*/
+
+.explare {
+    color: #688f37;
+    font-family: 'Catamaran', cursive;
+}
+
+.our {
+    font-family: 'Grand Hotel', cursive;
+}
+
+.text-1 {
+    width: 240px;
+    height: 240px;
+    color: grey;
+    background-color: #f1f5f9;
+}
+
+.button2 {
+    background-color: #688f37;
+    display: block;
+    color: white;
+    padding: 8px 25px;
+    border: 1px solid #688f37;
+    border-radius: 5px;
+}
+
+.icon {
+    border-radius: 40%;
+    border-color: #688f37;
+    size: 60px;
+    border: 8px solid #688f37;
+    color: #688f37;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    gap: 40px;
+    padding: 60px;
+}
+
+.end {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    top: 50%;
+}
+
+.Custom {
+    background-color: #f1f5f9;
+}
+
+.Home {
+    background-color: #f1f5f9;
+}
+
+.Tea {
+    background-color: #f1f5f9;
+}
+.parent2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Media*/
+@media only screen and (min-width:778px) {
+.tablet{
+display: flex;
+gap: 20px;
+}
+} 
+@media only screen and (min-width:1023px) {
+    .part-1, .parent2{
+    display: flex;
+    }
+    } 

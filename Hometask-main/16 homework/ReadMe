@@ -1,0 +1,5 @@
+Bu tapsiriqda iki grid yigmaq lazimdir.
+Evvelve 1ci gridin html ve css hissesi yigilib.Burada ad ucun h1 teqinden istifade olunub. Gridlerin her biri ucun div divlerin daxilinde klaslar acilib. 
+css hissesinde box hamisina ortaq olan xususiyyetler yazilib. box1 box2 ve s. bunlarda ise setir sutunlarin birlesmesi yerini deyismesi qeyd olunub.
+Sonra 2ci grid ucun html hissesi yazilib 1cide oldugu qaydada
+css hissesinde ise umumi xususuyyetler ve her biri ucun ferqli olan tapsiriqlar setirlerin bolunmesi item1 item2 ve s. klaslarda qeyd olunub.

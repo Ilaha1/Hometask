@@ -1,0 +1,107 @@
+.header
+
+.lb1{
+    color: hwb(210 12% 0%);
+      
+}
+.lb1{
+    te
+}
+.lb2{
+    color: rgb(52, 204, 52);
+}
+.lb3{
+    color: rgb(180, 48, 180);
+}
+.lb4{
+    color: orange;
+    
+}
+.btn {
+    color: blue;
+    background-color: chocolate;
+}
+body{
+    background-image: url(../img.png  )
+}
+.fr{
+    width: 1100xp;
+height: 1000px;
+background-color: cyan;
+}
+
+input:focus {
+    background-color: black;
+    color:white;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+input:focus::-webkit-input-placeholder {
+    color: red;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: #999;
+}
+input:focus:-moz-placeholder {
+    color: red;
+}
+body {
+    accent-color: rgb(71, 243, 71);
+  }
+ 
+  body {
+    background-image: url("C:\Users\user\Desktop\img.png");
+  }
+  body{text-align: center;
+}
+.button :focus{
+    background-color: chocolate;
+    outline: none;
+    color: white;
+}
+
+
+
+/*------ Course ----*/
+
+.header1{
+background-color: pink ;
+}
+.add2{
+    text-align: right top;
+}
+.h3{
+    text-align: right;
+}
+textarea{
+    resize: none;
+}
+.header1 textarea{
+    resize: none;
+}
+
+
+
+
+
+
+/*----- Course ----*/
+
+.header2{
+    background-color: gray;
+}
+.header2 h2{
+    color: rgb(194, 49, 49);
+}
+ul {
+    color: green;
+}
+p{
+    color: blue;
+}
+
+

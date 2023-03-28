@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background-color: #fffaed;
+  top: 0;
+  position: fixed;
+  
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+#header nav ul {
+  display: flex;
+  column-gap: 25px;
+}
+
+#header .logo {
+  text-shadow: 4px 4px 5px orange;
+}
+#header .logo span {
+  color: orange;
+}
+
+/* Banner section */
+#hero-banner {
+  background-color: #fffaed ;
+  margin-top: 57px;
+}
+#hero-banner .hero-banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero-banner .hero-banner .hero-banner-info,
+#hero-banner .hero-banner .hero-banner-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-banner-image .border {
+  width: 200px;
+  border: 2px solid orange;
+  border-radius: 4px;
+}
+
+.hero-banner-image .border img {
+  width: 200px;
+  border-radius: 4px;
+  position: relative;
+  top: -15px;
+  left: -20px;
+}
+.hero-banner .hero-banner-info {
+  flex-direction: column;
+  row-gap: 20px;
+}
+.hero-banner  .line {
+  border: 2px solid orange;
+  width: 100px;
+
+}
+.hero-banner .hero-banner-info .title {
+  font-size: 48px;
+}
+.hero-banner .hero-banner-info .position {
+  font-size: 24px;
+  color: gray;
+}
+.hero-banner .hero-banner-info .hire-me {
+  background-color: orange;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  width: 100px;
+}
+#hero-banner .hire-me:hover{
+  background-color: white;
+}
+/*About Section*/
+#about .general .about-img,
+#about .general .about-info{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+} 
+
+#about .general{
+  display: flex;
+  align-items: center;
+}
+#about .line{
+  border: 2px solid orange;
+  width: 60px;
+  margin:0 auto;
+}
+.about-img .border2 {
+  width:200px;
+  border: 2px solid orangered;
+  border-radius: 4px;
+}
+.about-img .border2 img{
+  width:200px;
+  border-radius: 4px;
+  position: relative;
+  top: -15px;
+  right: -15px;
+} 
+.general .about-info{
+  flex-direction: column;
+  row-gap: 20px;
+}
+.general .about-info .about-me{
+  background-color: orange;
+  border-radius: 4px;
+  display: inline-block;
+  width: 120px;
+}
+#about .about-me:hover{
+  background-color:white;
+}   
+/*Service Section*/
+#Service{
+  background-color: lightgrey;
+  width: 100%;
+  padding: 100px 0px;
+  display: flex;
+}
+.title{
+  font-size: 50px;
+  width: 800px;
+  text-align: center;
+  margin: 30px auto;
+}
+.general1{
+  display: flex;
+}
+.part1 .sec1{
+  display: flex;
+}
+.part1{
+  display: flex ;
+}
+.box {
+  display: flex;
+}
+#Service .line1{
+  border: 2px solid orange;
+  width: 60px;
+  margin:0 auto;
+}
+ #Service .container{
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+}   
+#Service .line2{
+  border: 2px solid orange;
+  width: 40px;
+  margin:0 auto;
+}
+#Service .line3{
+  border: 2px solid orange;
+  width: 40px;
+  margin:0 auto;
+}
+#Service .line4{
+  border: 2px solid orange;
+  width: 40px;
+  margin:0 auto;
+} 
+.cards{
+
+  width: 335px;
+  padding: 20px 35px;
+  margin: 15px;
+  position: relative;
+  text-align: center;
+  
+}
+   .hover .box1 .cards   :hover{
+  background-color:orange;
+}   
+/*Footer Section*/
+.footer{
+   background-color: black;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+ 
+}
+
+.nav2 nav ul {
+   display: flex;
+ gap: 80px;
+}     
+.son .nav2{
+  display: flex;
+}
+.nav2{
+  color: orange;
+}
+p {
+  color: gray;
+}
+
+
+
+@media only screen and (max-width:991px){
+
+#header{
+  flex-direction: column;
+}
+}     
+
+@media only screen and (max-width:767) {
+ 
+    
+header .container nav{
+  display: none;
+}
+header .container .fa-bars{
+  display: block;
+}
+}
