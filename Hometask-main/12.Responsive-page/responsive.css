@@ -30,6 +30,8 @@ nav ul {
 }
 header .menu {
     display: none;
+
+
 }
 
 /*Body*/
@@ -73,6 +75,9 @@ p {
     background-attachment: fixed;
     height: 100vh;
 }
+.img{
+    display: none;
+}
 
 /*Section-3*/
 h1 {
@@ -83,6 +88,7 @@ h1 {
     height: 130vh;
     border: 2px solid yellowgreen;
     position: relative;
+    display: flex;
 }
 
 .boxes .box {
@@ -147,7 +153,9 @@ h1 {
     }
     header .menu {
         display: block;
+    
     }
+    
 
     .body{
         display: none;
@@ -156,5 +164,19 @@ h1 {
         height: 70vh;
         background-image: url(./images/IMG-20230327-WA0006.jpg);
         background-size: cover;
+        display: block;
     }
+
+    .section-3 .boxes {
+        height: auto;
+    }
+    
+    .boxes .box {
+        margin: 0;
+        position: static;
+        height: 200px;
+        width: 200px;
+    
+    }
+    
 }
